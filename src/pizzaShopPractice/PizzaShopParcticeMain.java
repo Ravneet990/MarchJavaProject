@@ -1,12 +1,12 @@
-package pizzaShop;
+package pizzaShopPractice;
 
 //import pizzaShop.PizzaShop;
 
-public class PizzaShopMain {
+public class PizzaShopParcticeMain {
 
 	public static void main(String[] args) {
 	
-		PizzaShop ps = new PizzaShop();
+		PizzaShopPractice ps = new PizzaShopPractice();
 		
 		double price = ps.prepareFinalBill();
 		

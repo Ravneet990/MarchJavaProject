@@ -1,8 +1,8 @@
-package pizzaShop;
+package pizzaShopPractice;
 
 import java.util.Scanner;
 
-public class PizzaShop {
+public class PizzaShopPractice {
 
 	double price;
 
