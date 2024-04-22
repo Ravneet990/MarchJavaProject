@@ -12,8 +12,6 @@ public class AmusementPark {
 
 	Scanner sc = new Scanner(System.in);
 
-	Scanner sc1 = new Scanner(System.in);
-
 	void validateRide() {
 
 		System.out.println("Enter you height in cm");
@@ -26,7 +24,7 @@ public class AmusementPark {
 
 				System.out.println("Enter number of people already in the ride");
 
-				numberOfPeople = sc1.nextInt();
+				numberOfPeople = sc.nextInt();
 
 				if (numberOfPeople < 10) {
 

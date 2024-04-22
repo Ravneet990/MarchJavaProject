@@ -4,9 +4,7 @@ import java.util.Scanner;
 
 public class WaterTank {
 
-	int waterTankCapacity = 0;
-
-	int bucket = 10;
+	int waterTankCapacity = 11;
 
 	int counter = 10;
 
@@ -48,11 +46,6 @@ public class WaterTank {
 					break;
 
 				}
-
-//			else {
-//				
-//				System.out.println("The Final Capacity of Water is :" + waterTankCapacity);
-//			}
 
 			}
 

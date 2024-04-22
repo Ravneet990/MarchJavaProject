@@ -16,7 +16,6 @@ public class usernamePassword {
 
 	Scanner sc = new Scanner(System.in);
 
-	Scanner sc1 = new Scanner(System.in);
 
 	public void compareUsernamePassword() {
 
@@ -30,7 +29,7 @@ public class usernamePassword {
 
 			System.out.println("Enter password");
 
-			inputpassword = sc1.next();
+			inputpassword = sc.next();
 
 			if ((inputusername.equals(userID)) && (inputpassword.equals(password)))
 
@@ -45,7 +44,7 @@ public class usernamePassword {
 
 			else if ((!inputusername.equals(userID)) && (!inputpassword.equals(password)))
 
-				System.out.println("Incorrect UserID or Password. Please try again.");
+				System.out.println("Incorrect UserID or Password.");
 
 			maxAttempts--;
 
