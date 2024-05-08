@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class AccountWithConstructor {
 
-	String nameOfAccountHolder;
+	public String nameOfAccountHolder;
 
 	String rajinderAccount;
 

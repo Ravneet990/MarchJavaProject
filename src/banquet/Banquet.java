@@ -3,25 +3,9 @@ package banquet;
 
 public class Banquet {
 
-	double costOfBooking;
-
-	double costOfFood;
-
-	double costOfBeverages;
-
-	double costOfTaxesOnFood;
-
-	double costOfTaxesOnBeverage;
-
-	double costOfTip;
-
 	double totalBaseCost;
 
-	double valueOfPercentage;
-
 	double totalAfterPercentage;
-
-	int numberOfGuests;
 
 	double serviceCess;
 	

@@ -28,7 +28,7 @@ public class BanquetMain {
 
 		double valueOfPercentage = sc.nextDouble();
 
-		System.out.println("Enter the number of Guests visiting.");
+		System.out.println("Enter the number of Guests visiting");
 
 		int numberOfGuests = sc.nextInt();
 
@@ -37,7 +37,7 @@ public class BanquetMain {
 		System.out.println("The Total Base Cost is :"
 				+ cost.calculateBaseCost(costOfBooking, costOfFood, costOfBeverages, costOfTip));
 
-//	System.out.println("The value of Base cost after applying tax is :" + cost.calculatetax);
+//	System.out.println("The base cost after tax is : " + cost.calculatetax);
 
 		cost.calculatetax(cost.totalBaseCost, valueOfPercentage);
 
@@ -49,10 +49,11 @@ public class BanquetMain {
 
 		System.out.println("The Cess price with " + numberOfGuests + " number of Guests will be : "
 				+ cost.calculateCess(cost.totalBaseCost, numberOfGuests));
-		
+
 		cost.CalculateTotalCost(cost.totalAfterPercentage, cost.serviceCess);
 
-		System.out.println("The Final cost after the tax and service charges is : " + cost.CalculateTotalCost(cost.totalAfterPercentage, cost.serviceCess));
+		System.out.println("The Final cost after the tax and service charges is : "
+				+ cost.CalculateTotalCost(cost.totalAfterPercentage, cost.serviceCess));
 	}
 
 }
